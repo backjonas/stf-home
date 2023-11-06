@@ -1,20 +1,20 @@
 @font-face {
-    font-family: 'titlefont';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/fonts/Champagne.woff');
+  font-family: "titlefont";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Champagne.woff");
 }
 @font-face {
-    font-family: 'bodyfont';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/fonts/Commodus-Regular.woff');
+  font-family: "bodyfont";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Commodus-Regular.woff");
 }
 html {
   background: #f7f7f7;
 }
 body {
-  font-family: 'bodyfont', sans-serif;
+  font-family: "bodyfont", sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
@@ -42,14 +42,21 @@ a {
   transition: 0.5s;
   text-decoration: none;
 }
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: #f67d38;
   outline: none;
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'bodyfont', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "bodyfont", sans-serif;
   color: #000;
 }
 
@@ -86,13 +93,13 @@ p {
 }
 @media screen and (max-width: 768px) {
   #stf-header #stf-logo img {
-    content: url('/images/logoblack.png');
+    content: url("../images/logoblack.png");
     width: 52px;
     height: 32px;
   }
 }
 #stf-header #stf-logo a {
-  font-family: 'bodyfont', sans-serif;
+  font-family: "bodyfont", sans-serif;
   font-size: 30px;
   color: #ffffff;
 }
@@ -116,7 +123,7 @@ p {
   display: inline;
 }
 #stf-header #stf-main-nav ul li a {
-  font-family: 'bodyfont', sans-serif;
+  font-family: "bodyfont", sans-serif;
   color: #f9ad81;
   text-decoration: none;
   font-size: 30px;
@@ -133,7 +140,7 @@ p {
   text-decoration: none;
   color: #f9ad00;
   text-shadow: #aaaaaa 0px 0px 3px;
-  opacity: .8;
+  opacity: 0.8;
 }
 #stf-header.navbar-fixed-top {
   position: fixed !important;
@@ -150,10 +157,10 @@ p {
   line-height: 1.2;
 }
 #stf-header.navbar-fixed-top #stf-logo img {
-  content: url('/images/logoblack.png');
+  content: url("../images/logoblack.png");
 }
 #stf-header.navbar-fixed-top #stf-main-nav ul li a {
-  font-family: 'bodyfont', sans-serif;
+  font-family: "bodyfont", sans-serif;
   color: #f9ad81;
   text-decoration: none;
   margin-left: 30px;
@@ -163,7 +170,7 @@ p {
   text-decoration: none;
   color: #f9ad00;
   text-shadow: #aaaaaa 0px 0px 3px;
-  opacity: .8;
+  opacity: 0.8;
 }
 #stf-header.navbar-fixed-top #stf-main-nav ul li.active a {
   color: #000000;
@@ -191,7 +198,7 @@ p {
 #stf-home .flexslider .stf-text h1 {
   margin: 0 0 30px 0;
   padding: 0;
-  font-family: 'titlefont', sans-serif;
+  font-family: "titlefont", sans-serif;
   font-size: 100px;
   font-weight: 400;
   color: #ffffff;
@@ -213,7 +220,7 @@ p {
   }
 }
 #stf-home .flexslider .stf-text a {
-  font-family: 'bodyfont', sans-serif;
+  font-family: "bodyfont", sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -275,7 +282,7 @@ p {
 }
 #stf-about pre {
   font-size: 28px;
-  font-family: 'bodyfont', sans-serif;
+  font-family: "bodyfont", sans-serif;
   color: #d9bc80;
   font-weight: bold;
   text-shadow: #aaaaaa 0px 0px 2px;
@@ -304,7 +311,7 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url('/images/herreminhatt.png');
+  background-image: url("../images/herreminhatt.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -344,9 +351,9 @@ p {
   letter-spacing: 2px;
   color: #d9bc80;
   text-shadow: #aaaaaa 0px 0px 3px;
-  font-family: 'bodyfont', sans-serif;
+  font-family: "bodyfont", sans-serif;
   font-weight: 700;
-  opacity: .8;
+  opacity: 0.8;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
@@ -387,15 +394,15 @@ p {
   }
 }
 
-.js .to-animate, .js
-.to-animate-2, .js
-.animate-box {
+.js .to-animate,
+.js .to-animate-2,
+.js .animate-box {
   opacity: 0;
 }
 
 .stf-animated {
-  -webkit-animation-duration: .3s;
-  animation-duration: .3s;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
