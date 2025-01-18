@@ -198,11 +198,10 @@ p {
 #stf-home .flexslider .stf-text h1 {
   margin: 0 0 30px 0;
   padding: 0;
-  font-family: "titlefont", sans-serif;
-  font-size: 100px;
+  font-family: "bodyfont", sans-serif;
+  font-size: 50px;
   font-weight: 400;
   color: #ffffff;
-  text-shadow: #f9ad81 0px 0px 10px;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -216,7 +215,7 @@ p {
 }
 @media screen and (max-width: 768px) {
   #stf-home .flexslider .stf-text h1 {
-    font-size: 60px;
+    font-size: 30px;
   }
 }
 #stf-home .flexslider .stf-text a {
